@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.ontoloop/ontoloop",
+  "title": "Ontoloop",
+  "description": "Team agent collaboration: shared team facts, human-confirmed writes, tasks and threads over MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://ontoloop.ai/en/docs/mcp",
+  "icons": [
+    {
+      "src": "https://ontoloop.ai/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://ontoloop.ai/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/ontoloop/ontoloop-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ontoloop.ai/api/mcp"
+    }
+  ]
+}
